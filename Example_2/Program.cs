@@ -4,8 +4,8 @@
 //78 -> третьей цифры нет
 //32679 -> 6
 
-
-int num = 32679;
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
 string str = num.ToString();
 int[] array = new int[str.Length];
 
